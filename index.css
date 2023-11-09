@@ -59,3 +59,17 @@ body {
     background-color: blue;
     border-radius: 0;
   }
+  /*Triangle to Square animation*/
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 213, 255);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transition: all 0.3s;
+  }
+
+.square:hover {
+    background-color: rgb(200, 255, 0);
+    transform: rotate(270deg);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
