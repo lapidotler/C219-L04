@@ -44,3 +44,18 @@ body {
 .shape:hover {
     transform: scale(1.1);
 }
+/* Circle to Square Animation */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+
+.circle:hover {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 0;
+  }
