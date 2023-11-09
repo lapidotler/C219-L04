@@ -102,7 +102,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-/*Pentagon to Square Animation (Yasmin) */
+/* Pentagon to Square Animation (Yasmin) */
 .pentagon {
     width: 100px;
     height: 100px;
@@ -118,6 +118,7 @@ body {
     background-color: rgb(255, 145, 0);
 }
 
+/* Yinyang Animation (Jia Jun) */
 .yinyang {
     background: rgb(0, 0, 0);
     width: 80px;
